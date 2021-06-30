@@ -1,0 +1,9 @@
+﻿  Swiat.cpp
+C:\Users\filip\Desktop\Symulacja\Symulacja\Swiat.cpp(42,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\filip\Desktop\Symulacja\Symulacja\Swiat.cpp(49,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\filip\Desktop\Symulacja\Symulacja\Swiat.cpp(70,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\filip\Desktop\Symulacja\Symulacja\Swiat.cpp(84,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\filip\Desktop\Symulacja\Symulacja\Swiat.cpp(86,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\filip\Desktop\Symulacja\Symulacja\Swiat.cpp(96,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\filip\Desktop\Symulacja\Symulacja\Swiat.cpp(100,20): warning C4018: '<': signed/unsigned mismatch
+  Symulacja.vcxproj -> C:\Users\filip\Desktop\Symulacja\Debug\Symulacja.exe
