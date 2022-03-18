@@ -1,23 +1,23 @@
-#include "Guarana.h"
+#include "guarana.h"
 
-Guarana::Guarana(Swiat* swiat, Punkt& polozenie)
-	: Roslina(swiat, polozenie, SYMBOL_GUARANA, SILA_GUARANA) {
-	printf("Nowa Guarana w polozeniu (%i, %i)\n", this->GetPolozenie().GetX(), this->GetPolozenie().GetY());
+Guarana::Guarana(World* world, Point& position)
+	: Plant(world, position, GUARANA_SYMBOL, GUARANA_STRENGTH) {
+	printf("New Guarana in position (%i, %i)\n", this->GetPosition().GetX(), this->GetPosition().GetY());
 }
 
-void Guarana::Rysowanie() {
+void Guarana::Draw() {
 	printf("\033[94m%c\033[0m ", this->GetSymbol());
 }
 
-bool Guarana::CzyBonusSily() {
+bool Guarana::GivesStrengthBonus() {
 	return true;
 }
 
-Organizm* Guarana::WygenerujKopie(Punkt polozenie) {
-	Organizm* dziecko = new Guarana(this->GetSwiat(), polozenie);
-	return dziecko;
+Organism* Guarana::CreateCopy(Point position) {
+	Organism* child = new Guarana(this->GetWorld(), position);
+	return child;
 }
 
 Guarana::~Guarana() {
-	printf("Zjedzenie Guarany w polozeniu (%i, %i)\n", this->GetPolozenie().GetX(), this->GetPolozenie().GetY());
+	printf("Guarana eaten in position (%i, %i)\n", this->GetPosition().GetX(), this->GetPosition().GetY());
 }

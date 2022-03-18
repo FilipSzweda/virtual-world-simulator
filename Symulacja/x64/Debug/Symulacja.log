@@ -1,1 +1,25 @@
-﻿  Symulacja.vcxproj -> C:\Users\filip\Desktop\Symulacja\x64\Debug\Symulacja.exe
+﻿  antelope.cpp
+  sosnowskys_hogweed.cpp
+  human.cpp
+  guarana.cpp
+  fox.cpp
+  dandelion.cpp
+  organism.cpp
+  sheep.cpp
+  point.cpp
+  plant.cpp
+  world.cpp
+D:\workspaces\virtual_world_simulator\Symulacja\world.cpp(12,19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  simulation.cpp
+D:\workspaces\virtual_world_simulator\Symulacja\simulation.cpp(54,18): warning C4101: 'symbol': unreferenced local variable
+D:\workspaces\virtual_world_simulator\Symulacja\simulation.cpp(52,57): warning C4101: 'y': unreferenced local variable
+D:\workspaces\virtual_world_simulator\Symulacja\simulation.cpp(52,54): warning C4101: 'x': unreferenced local variable
+D:\workspaces\virtual_world_simulator\Symulacja\simulation.cpp(52,60): warning C4101: 'strength': unreferenced local variable
+  grass.cpp
+  deadly_nightshade.cpp
+  wolf.cpp
+  simulation_manager.cpp
+  tortoise.cpp
+  animal.cpp
+  Generating Code...
+  Symulacja.vcxproj -> D:\workspaces\virtual_world_simulator\x64\Debug\Symulacja.exe

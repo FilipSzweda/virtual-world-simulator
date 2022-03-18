@@ -1,16 +1,16 @@
 #pragma once
-#include "Roslina.h"
+#include "plant.h"
 
-#define SILA_GUARANA 0
-#define SYMBOL_GUARANA '$'
+#define GUARANA_STRENGTH 0
+#define GUARANA_SYMBOL '$'
 
-class Guarana : public Roslina {
+class Guarana : public Plant {
 public:
-	Guarana(Swiat* swiat, Punkt& polozenie);
+	Guarana(World* world, Point& position);
 
-	void Rysowanie() override;
-	bool CzyBonusSily() override;
-	Organizm* WygenerujKopie(Punkt polozenie) override;
+	void Draw() override;
+	bool GivesStrengthBonus() override;
+	Organism* CreateCopy(Point position) override;
 
 	~Guarana();
 };

@@ -13,125 +13,125 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Header Files\Zwierzeta">
-      <UniqueIdentifier>{bec741ac-a962-46b5-970d-f99d9615054c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Rosliny">
+    <Filter Include="Header Files\plants">
       <UniqueIdentifier>{1dbb2106-2f6a-452d-bc06-1982ba006f21}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Zwierzeta">
-      <UniqueIdentifier>{476f8513-b1f8-4c8c-96aa-09ac1fccffd2}</UniqueIdentifier>
+    <Filter Include="Header Files\animals">
+      <UniqueIdentifier>{bec741ac-a962-46b5-970d-f99d9615054c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Rosliny">
+    <Filter Include="Source Files\plants">
       <UniqueIdentifier>{8d2712bb-72bf-462f-b087-3326d3ee0001}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\animals">
+      <UniqueIdentifier>{476f8513-b1f8-4c8c-96aa-09ac1fccffd2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Symulacja.cpp">
+    <ClCompile Include="simulation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Swiat.cpp">
+    <ClCompile Include="world.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Organizm.cpp">
+    <ClCompile Include="organism.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Zwierze.cpp">
+    <ClCompile Include="animal.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lis.cpp">
-      <Filter>Source Files\Zwierzeta</Filter>
+    <ClCompile Include="fox.cpp">
+      <Filter>Source Files\animals</Filter>
     </ClCompile>
-    <ClCompile Include="Antylopa.cpp">
-      <Filter>Source Files\Zwierzeta</Filter>
+    <ClCompile Include="antelope.cpp">
+      <Filter>Source Files\animals</Filter>
     </ClCompile>
-    <ClCompile Include="Owca.cpp">
-      <Filter>Source Files\Zwierzeta</Filter>
+    <ClCompile Include="sheep.cpp">
+      <Filter>Source Files\animals</Filter>
     </ClCompile>
-    <ClCompile Include="Wilk.cpp">
-      <Filter>Source Files\Zwierzeta</Filter>
+    <ClCompile Include="wolf.cpp">
+      <Filter>Source Files\animals</Filter>
     </ClCompile>
-    <ClCompile Include="Zolw.cpp">
-      <Filter>Source Files\Zwierzeta</Filter>
+    <ClCompile Include="tortoise.cpp">
+      <Filter>Source Files\animals</Filter>
     </ClCompile>
-    <ClCompile Include="Roslina.cpp">
+    <ClCompile Include="plant.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Punkt.cpp">
+    <ClCompile Include="point.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Czlowiek.cpp">
-      <Filter>Source Files\Zwierzeta</Filter>
+    <ClCompile Include="human.cpp">
+      <Filter>Source Files\animals</Filter>
     </ClCompile>
-    <ClCompile Include="Trawa.cpp">
-      <Filter>Source Files\Rosliny</Filter>
+    <ClCompile Include="grass.cpp">
+      <Filter>Source Files\plants</Filter>
     </ClCompile>
-    <ClCompile Include="Mlecz.cpp">
-      <Filter>Source Files\Rosliny</Filter>
+    <ClCompile Include="dandelion.cpp">
+      <Filter>Source Files\plants</Filter>
     </ClCompile>
-    <ClCompile Include="Guarana.cpp">
-      <Filter>Source Files\Rosliny</Filter>
+    <ClCompile Include="guarana.cpp">
+      <Filter>Source Files\plants</Filter>
     </ClCompile>
-    <ClCompile Include="WilczeJagody.cpp">
-      <Filter>Source Files\Rosliny</Filter>
+    <ClCompile Include="deadly_nightshade.cpp">
+      <Filter>Source Files\plants</Filter>
     </ClCompile>
-    <ClCompile Include="BarszczSosnowskiego.cpp">
-      <Filter>Source Files\Rosliny</Filter>
+    <ClCompile Include="sosnowskys_hogweed.cpp">
+      <Filter>Source Files\plants</Filter>
     </ClCompile>
-    <ClCompile Include="ZarzadcaSymulacji.cpp">
+    <ClCompile Include="simulation_manager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Wilk.h">
-      <Filter>Header Files\Zwierzeta</Filter>
+    <ClInclude Include="wolf.h">
+      <Filter>Header Files\animals</Filter>
     </ClInclude>
-    <ClInclude Include="Zolw.h">
-      <Filter>Header Files\Zwierzeta</Filter>
+    <ClInclude Include="tortoise.h">
+      <Filter>Header Files\animals</Filter>
     </ClInclude>
-    <ClInclude Include="Lis.h">
-      <Filter>Header Files\Zwierzeta</Filter>
+    <ClInclude Include="fox.h">
+      <Filter>Header Files\animals</Filter>
     </ClInclude>
-    <ClInclude Include="Owca.h">
-      <Filter>Header Files\Zwierzeta</Filter>
+    <ClInclude Include="sheep.h">
+      <Filter>Header Files\animals</Filter>
     </ClInclude>
-    <ClInclude Include="Antylopa.h">
-      <Filter>Header Files\Zwierzeta</Filter>
+    <ClInclude Include="antelope.h">
+      <Filter>Header Files\animals</Filter>
     </ClInclude>
-    <ClInclude Include="Zwierze.h">
+    <ClInclude Include="animal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Organizm.h">
+    <ClInclude Include="organism.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Swiat.h">
+    <ClInclude Include="world.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Roslina.h">
+    <ClInclude Include="plant.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Punkt.h">
+    <ClInclude Include="point.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Czlowiek.h">
-      <Filter>Header Files\Zwierzeta</Filter>
+    <ClInclude Include="human.h">
+      <Filter>Header Files\animals</Filter>
     </ClInclude>
-    <ClInclude Include="Trawa.h">
-      <Filter>Header Files\Rosliny</Filter>
+    <ClInclude Include="grass.h">
+      <Filter>Header Files\plants</Filter>
     </ClInclude>
-    <ClInclude Include="Mlecz.h">
-      <Filter>Header Files\Rosliny</Filter>
+    <ClInclude Include="dandelion.h">
+      <Filter>Header Files\plants</Filter>
     </ClInclude>
-    <ClInclude Include="Guarana.h">
-      <Filter>Header Files\Rosliny</Filter>
+    <ClInclude Include="guarana.h">
+      <Filter>Header Files\plants</Filter>
     </ClInclude>
-    <ClInclude Include="WilczeJagody.h">
-      <Filter>Header Files\Rosliny</Filter>
+    <ClInclude Include="deadly_nightshade.h">
+      <Filter>Header Files\plants</Filter>
     </ClInclude>
-    <ClInclude Include="BarszczSosnowskiego.h">
-      <Filter>Header Files\Rosliny</Filter>
+    <ClInclude Include="sosnowskys_hogweed.h">
+      <Filter>Header Files\plants</Filter>
     </ClInclude>
-    <ClInclude Include="ZarzadcaSymulacji.h">
+    <ClInclude Include="simulation_manager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
